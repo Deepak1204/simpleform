@@ -1,0 +1,30 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sample.form.sample_form.controller.view2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="This is View2" showNavButton="true" navButtonPress="back">
+				<content>
+					<Table id="table"
+						items="{ path:'model1>/' }">
+						<columns>
+							<Column>
+								<Text text="Input1"/>
+							</Column>
+							<Column>
+								<Text text="Input1"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<Label text="{model1>num}"/>
+									<Label text="{model1>nuc}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
